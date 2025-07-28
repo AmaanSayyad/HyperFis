@@ -49,7 +49,7 @@ HyperFi on Citrea implements:
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/HyperFis.git
+git clone https://github.com/AmaanSayyad/HyperFis.git
 
 # Navigate to the frontend directory
 cd HyperFis/HyperFi_frontend-main
@@ -66,67 +66,3 @@ yarn dev
 ```
 
 The frontend will be available at http://localhost:3000
-
-#### Smart Contracts
-
-```bash
-# Navigate to the Hardhat directory
-cd HyperFis/HyperFi/packages/hardhat
-
-# Install dependencies
-npm install
-# or
-yarn install
-
-# Compile contracts
-npx hardhat compile
-
-# Run tests
-npx hardhat test
-
-# Deploy to Citrea testnet
-npx hardhat run scripts/deploy.js --network citrea
-```
-
-### Project Structure
-
-```
-HyperFis/
-├── HyperFi_frontend-main/    # Next.js frontend application
-│   ├── components/           # React components
-│   ├── pages/                # Next.js pages
-│   ├── public/               # Static assets
-│   └── styles/               # CSS styles
-│
-├── HyperFi/                  # Smart contracts and blockchain code
-│   └── packages/
-│       ├── hardhat/          # Solidity contracts and tests
-│       └── subgraph/         # TheGraph subgraph for indexing
-│
-└── HyperFi_Backend-main/     # Backend services
-    ├── abis/                 # Contract ABIs
-    └── components/           # Backend components
-```
-
-## Usage
-
-1. **Connect Wallet**: Connect your Bitcoin wallet through Citrea's zkEVM Layer 2
-2. **Explore Opportunities**: Browse various Bitcoin DeFi protocols and compare APYs
-3. **Deposit Bitcoin**: Choose a protocol and deposit your BTC
-4. **Earn Yield**: Start earning yield on your Bitcoin investments
-5. **Monitor & Optimize**: Track your earnings and rebalance as needed
-
-## Contributing
-
-We welcome contributions to HyperFi! Please see our [Contributing Guidelines](CONTRIBUTING.md) for more information.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Contact
-
-For questions or support, please reach out to us at:
-- Twitter: [@HyperFiDeFi](https://twitter.com/HyperFiDeFi)
-- Discord: [HyperFi Community](https://discord.gg/hyperfi)
-- Email: contact@hyperfi.io
