@@ -7,7 +7,7 @@ import Card from "@/components/Cards/Card";
 
 const Feature = () => {
   return (
-    <div className="mt-10 py-16 bg-gray-900 rounded-xl mx-4 shadow-2xl">
+    <div className="mt-10 py-16 bg-black rounded-xl mx-4 shadow-2xl">
       <h1 className="font-extrabold font-Poppins text-4xl md:text-6xl text-center text-white mb-8">
         Bitcoin DeFi Features
       </h1>

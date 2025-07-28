@@ -16,7 +16,7 @@ function BitcoinLending() {
 
   return (
     <>
-      <Head>
+    <Head>
         <title>Bitcoin Lending | HyperFi</title>
         <meta name="description" content="Explore Bitcoin lending protocols on Citrea's zkEVM Layer 2" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -53,18 +53,18 @@ function BitcoinLending() {
                 Traditional Bitcoin has limited programmability, making lending difficult. But with Citrea's zkEVM,
                 we can bring sophisticated lending protocols directly to Bitcoin holders.
               </p>
-              <div className="bg-gray-800 rounded-lg p-6 border-l-4 border-yellow-500">
+              <div className="bg-black rounded-lg p-6 border-l-4 border-yellow-500">
                 <h3 className="text-xl font-semibold text-white mb-2">Why Lend Your Bitcoin?</h3>
                 <p className="text-gray-300">
                   Bitcoin holders often keep their assets idle. Lending puts your BTC to work, generating yield 
                   while maintaining long-term exposure to Bitcoin's price appreciation.
-                </p>
+            </p>
               </div>
             </div>
             <div className="md:w-1/2">
               <div className="relative rounded-2xl overflow-hidden shadow-2xl">
-                <Image
-                  src={aave1.src}
+              <Image
+                src={aave1.src}
                   alt="Bitcoin Lending"
                   width={600}
                   height={400}
@@ -75,7 +75,7 @@ function BitcoinLending() {
             </div>
           </div>
         </div>
-        
+
         {/* Section 2: How Bitcoin Lending Works on Citrea */}
         <div className="mb-24">
           <div className="flex flex-col md:flex-row-reverse items-center gap-8 md:gap-16">
@@ -88,14 +88,14 @@ function BitcoinLending() {
                 This allows for sophisticated lending protocols that were previously impossible on Bitcoin's base layer.
               </p>
               <div className="grid grid-cols-1 gap-4 mb-6">
-                <div className="bg-gray-800 p-5 rounded-lg">
+                <div className="bg-black p-5 rounded-lg">
                   <h3 className="text-xl font-semibold text-white mb-2">Supply Bitcoin</h3>
                   <p className="text-gray-300">
                     Deposit your BTC into lending pools to earn interest from borrowers. Your interest rate adjusts 
                     based on market supply and demand.
                   </p>
                 </div>
-                <div className="bg-gray-800 p-5 rounded-lg">
+                <div className="bg-black p-5 rounded-lg">
                   <h3 className="text-xl font-semibold text-white mb-2">Borrow Against Bitcoin</h3>
                   <p className="text-gray-300">
                     Use your BTC as collateral to borrow other assets without selling your Bitcoin. Perfect for 
@@ -113,8 +113,8 @@ function BitcoinLending() {
             </div>
             <div className="md:w-1/2">
               <div className="relative rounded-2xl overflow-hidden shadow-2xl">
-                <Image
-                  src={aave3.src}
+              <Image
+                src={aave3.src}
                   alt="Bitcoin Lending Process"
                   width={600}
                   height={400}
@@ -168,11 +168,11 @@ function BitcoinLending() {
               <p className="text-gray-300">
                 Access liquidity without selling your Bitcoin. Borrow against your BTC to fund expenses or investments 
                 while maintaining your long-term Bitcoin position.
-              </p>
+            </p>
             </div>
           </div>
         </div>
-        
+
         {/* Section 4: Getting Started */}
         <div className="mb-24">
           <div className="flex flex-col md:flex-row items-center gap-8 md:gap-16">
@@ -222,14 +222,14 @@ function BitcoinLending() {
                     <h3 className="text-xl font-semibold text-white mb-2">Withdraw Anytime</h3>
                     <p className="text-gray-300">
                       Withdraw your Bitcoin plus earned interest at any time, with no lock-up periods.
-                    </p>
+            </p>
                   </div>
                 </li>
               </ol>
             </div>
             <div className="md:w-1/2">
               <div className="relative rounded-2xl overflow-hidden shadow-2xl">
-                <Image
+              <Image
                   src={aave4.src}
                   alt="Getting Started with Bitcoin Lending"
                   width={600}
@@ -241,7 +241,7 @@ function BitcoinLending() {
             </div>
           </div>
         </div>
-        
+
         {/* Video Section */}
         <div className="mb-24">
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-6 text-center">

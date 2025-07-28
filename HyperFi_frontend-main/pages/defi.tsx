@@ -16,7 +16,7 @@ function BitcoinDeFi() {
   
   return (
     <>
-      <Head>
+    <Head>
         <title>Bitcoin DeFi | HyperFi</title>
         <meta name="description" content="Explore Bitcoin DeFi opportunities with HyperFi on Citrea's zkEVM Layer 2" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -52,18 +52,18 @@ function BitcoinDeFi() {
                 With Citrea's zkEVM Layer 2 solution, Bitcoin can now access the full range of DeFi services 
                 while maintaining the security and decentralization of the Bitcoin network.
               </p>
-              <div className="bg-gray-800 rounded-lg p-6 border-l-4 border-yellow-500">
+              <div className="bg-black rounded-lg p-6 border-l-4 border-yellow-500">
                 <h3 className="text-xl font-semibold text-white mb-2">Why Bitcoin DeFi Matters</h3>
                 <p className="text-gray-300">
                   Bitcoin represents over 50% of the total crypto market cap, yet most of it sits idle. 
                   Bitcoin DeFi unlocks this capital, allowing holders to earn yield while maintaining exposure to BTC.
-                </p>
+            </p>
               </div>
             </div>
             <div className="md:w-1/2">
               <div className="relative rounded-2xl overflow-hidden shadow-2xl">
-                <Image
-                  src={defi1.src}
+              <Image
+                src={defi1.src}
                   alt="Bitcoin DeFi Concept"
                   width={600}
                   height={400}
@@ -74,7 +74,7 @@ function BitcoinDeFi() {
             </div>
           </div>
         </div>
-        
+
         {/* Section 2: How Citrea Enables Bitcoin DeFi */}
         <div className="mb-24">
           <div className="flex flex-col md:flex-row-reverse items-center gap-8 md:gap-16">
@@ -87,7 +87,7 @@ function BitcoinDeFi() {
                 enable complex smart contract functionality while inheriting Bitcoin's security.
               </p>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
-                <div className="bg-gray-800 p-4 rounded-lg">
+                <div className="bg-black p-4 rounded-lg">
                   <div className="w-10 h-10 bg-yellow-500 rounded-full flex items-center justify-center mb-3">
                     <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
                       <path fillRule="evenodd" d="M4 4a2 2 0 00-2 2v8a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1.5l-1.8-1.8A2 2 0 0012.2 2H7.8a2 2 0 00-1.4.6L4.5 4H4zm7 5a1 1 0 10-2 0v1H8a1 1 0 100 2h1v1a1 1 0 102 0v-1h1a1 1 0 100-2h-1V9z" clipRule="evenodd" />
@@ -96,7 +96,7 @@ function BitcoinDeFi() {
                   <h3 className="text-lg font-semibold text-white mb-1">Native Bitcoin</h3>
                   <p className="text-gray-300 text-sm">Use your BTC directly without wrapping</p>
                 </div>
-                <div className="bg-gray-800 p-4 rounded-lg">
+                <div className="bg-black p-4 rounded-lg">
                   <div className="w-10 h-10 bg-yellow-500 rounded-full flex items-center justify-center mb-3">
                     <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
                       <path fillRule="evenodd" d="M5 9V7a5 5 0 0110 0v2a2 2 0 012 2v5a2 2 0 01-2 2H5a2 2 0 01-2-2v-5a2 2 0 012-2zm8-2v2H7V7a3 3 0 016 0z" clipRule="evenodd" />
@@ -127,8 +127,8 @@ function BitcoinDeFi() {
             </div>
             <div className="md:w-1/2">
               <div className="relative rounded-2xl overflow-hidden shadow-2xl">
-                <Image
-                  src={defi2.src}
+              <Image
+                src={defi2.src}
                   alt="Citrea zkEVM Layer 2"
                   width={600}
                   height={400}
@@ -139,7 +139,7 @@ function BitcoinDeFi() {
             </div>
           </div>
         </div>
-        
+
         {/* Section 3: Bitcoin DeFi Applications */}
         <div className="mb-24">
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-10 text-center">
@@ -200,7 +200,7 @@ function BitcoinDeFi() {
             
             <div className="bg-gray-800 rounded-xl overflow-hidden shadow-lg transition-transform hover:scale-105">
               <div className="h-48 overflow-hidden">
-                <Image
+              <Image
                   src={defi1.src}
                   alt="Yield Farming"
                   width={400}
@@ -223,7 +223,7 @@ function BitcoinDeFi() {
             </div>
           </div>
         </div>
-        
+
         {/* Video Section */}
         <div className="mb-24">
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-6 text-center">

@@ -5,7 +5,7 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <footer aria-label="Site Footer" className="bg-gray-900">
+    <footer aria-label="Site Footer" className="bg-black">
       <div className="max-w-screen-xl px-4 pt-16 pb-8 mx-auto sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
           <div>
@@ -216,7 +216,7 @@ const Footer = () => {
           </div>
         </div>
         
-        <div className="pt-8 mt-8 border-t border-gray-800">
+        <div className="pt-8 mt-8 border-t border-gray-700">
           <div className="flex flex-col-reverse items-center justify-between gap-4 sm:flex-row">
             <p className="text-xs text-gray-400">
               &copy; 2023 HyperFi. All rights reserved.

@@ -26,7 +26,7 @@ export default function Navbar() {
   };
   
   return (
-    <Disclosure as="nav" className="bg-gray-900 shadow-lg">
+    <Disclosure as="nav" className="bg-black shadow-lg">
       {({ open }) => (
         <>
           <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 font-Manrope py-3">
@@ -57,8 +57,8 @@ export default function Navbar() {
                     <span
                       className={classNames(
                         isCurrentPage(item.href)
-                          ? "bg-gray-800 text-yellow-400"
-                          : "text-gray-300 hover:bg-gray-700 hover:text-yellow-300",
+                          ? "bg-gray-900 text-yellow-400"
+                          : "text-gray-300 hover:bg-gray-900 hover:text-yellow-300",
                         "px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200"
                       )}
                     >
@@ -99,8 +99,8 @@ export default function Navbar() {
                   href={item.href}
                   className={classNames(
                     isCurrentPage(item.href)
-                      ? "bg-gray-800 text-yellow-400"
-                      : "text-gray-300 hover:bg-gray-700 hover:text-yellow-300",
+                      ? "bg-gray-900 text-yellow-400"
+                      : "text-gray-300 hover:bg-gray-900 hover:text-yellow-300",
                     "block px-3 py-2 rounded-md text-base font-medium"
                   )}
                 >
